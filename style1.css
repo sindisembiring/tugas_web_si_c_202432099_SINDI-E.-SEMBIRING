@@ -1,0 +1,62 @@
+/* Nama : Sindi E. Sembiring 
+Nim  : 202432099 
+*/
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #fff5f6; /* Latar belakang pink sangat muda */
+    margin: 0; 
+}
+header { 
+    background: #a9445d; /* Berry Pink Gelap agar terlihat profesional */
+    color: white; 
+    padding: 1.5rem; 
+    text-align: center; 
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+nav { 
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+nav a.active { 
+    background: #d67d93; /* Soft Rose Pink */
+}
+main { 
+    padding: 2rem; 
+    max-width: 800px; 
+    margin: auto; 
+}
+main h2 {
+    font-size: 1.4rem;
+    color: #4a1521;
+    margin-bottom: 1.5rem;
+}
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(169, 68, 93, 0.1);
+}
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #f3d1d7;
+}
+.styled-table th { 
+    background-color: #d67d93; 
+    color: white; 
+}
+.styled-table tbody tr:nth-child(even) { 
+    background-color: #fff9fa; 
+}

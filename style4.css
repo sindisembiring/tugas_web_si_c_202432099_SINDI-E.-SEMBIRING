@@ -1,0 +1,34 @@
+/* Nama : Sindi E. Sembiring 
+Nim  : 202432099 
+*/
+body { 
+    /* Perpaduan gradien Dark Maroon & Soft Dusty Rose, sangat estetik dan tidak mencolok */
+    background: linear-gradient(135deg, #2b0b13 0%, #6e3645 100%) !important; 
+    height: 100vh;
+}
+.navbar {
+    background-color: #8c3a4f !important; /* Warna navbar pink tua solid */
+}
+.card {  
+    background-color: #f7d6dd !important; /* Kotak login warna pink pastel lembut */
+    border-radius: 15px;
+}
+.card h2 {
+    color: #4a1521 !important; /* Tulisan judul warna maroon gelap */
+}
+.btn-warning {
+    background-color: #b5526b !important; /* Tombol warna rose berry */
+    border: none;
+}
+.btn-warning:hover {
+    background-color: #943d53 !important;
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.nav-link.active {
+    color: #fff !important;
+}
+.nav-link:hover { 
+    color: #ffcad6 !important; 
+}
